@@ -5,6 +5,7 @@ import {
   AiFillGithub,
 } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { MdLightMode } from 'react-icons/md';
 import { useState } from 'react';
 import marwan from '../public/marwan.png';
 import Image from 'next/image';
@@ -30,10 +31,19 @@ export default function Home() {
             <h1 className="font-burtons text-3xl">MDev</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
+                {darkMode && (
+                  <MdLightMode
+                    onClick={() => setDarkMode(!darkMode)}
+                    className=" cursor-pointer text-3xl"
+                  />
+                )}
+
+                {!darkMode && (
+                  <BsFillMoonStarsFill
+                    onClick={() => setDarkMode(!darkMode)}
+                    className=" cursor-pointer text-2xl"
+                  />
+                )}
               </li>
               <li>
                 <a
