@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 transition-all ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-105 duration-300 hover:bg-gradient-to-b from-teal-300 to-teal-800"
               style={
                 darkMode
                   ? { border: '1px solid #009688' }
@@ -140,7 +140,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 transition-all ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-105 duration-300 hover:bg-gradient-to-b from-teal-300 to-teal-800"
               style={
                 darkMode
                   ? { border: '1px solid #009688' }
@@ -179,7 +179,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 transition-all ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-105 duration-300 hover:bg-gradient-to-b from-teal-300 to-teal-800"
               style={
                 darkMode
                   ? { border: '1px solid #009688' }
@@ -221,7 +221,7 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">
+            <h3 className="text-3xl py-1 dark:text-white text-center mb-10 font-bold">
               Portofolio
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
