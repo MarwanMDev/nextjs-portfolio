@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import {
-  AiFillTwitterCircle,
+  AiOutlineMail,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from 'react-icons/ai';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
@@ -65,15 +65,13 @@ export default function Home() {
               cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
+              <AiOutlineMail />
               <AiFillLinkedin />
-              <AiFillYoutube />
+              <AiFillGithub />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image
                 src={marwan}
-                // layout="fill"
-                // objectFit="cover"
                 priority={1}
                 alt="marwan"
                 style={{ objectFit: 'cover', height: '100%' }}
