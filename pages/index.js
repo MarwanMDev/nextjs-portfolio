@@ -83,7 +83,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">
+            <h3 className="text-3xl py-1 dark:text-white">
               Services I offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -101,7 +101,14 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              style={
+                darkMode
+                  ? { border: '1px solid #009688' }
+                  : { border: '1px solid transparent' }
+              }
+            >
               <Image
                 src={design}
                 width={100}
@@ -109,22 +116,37 @@ export default function Home() {
                 alt="design"
                 style={{ margin: 'auto' }}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
+              <h3 className="text-2xl font-bold pt-8 pb-2 dark:text-white">
                 Beautiful Designs
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-white">
                 Creating elegant designs suited for your needs
                 following core design theory.
               </p>
-              <h4 className="py-4 text-teal-600">
+              <h4 className="py-4 dark:text-white font-medium text-lg">
                 Design Tools I Use
               </h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Photoshop
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Illustrator
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Figma
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Indesign
+              </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              style={
+                darkMode
+                  ? { border: '1px solid #009688' }
+                  : { border: '1px solid transparent' }
+              }
+            >
               <Image
                 src={code}
                 width={100}
@@ -132,23 +154,38 @@ export default function Home() {
                 alt="code"
                 style={{ margin: 'auto' }}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="text-2xl font-bold pt-8 pb-2 dark:text-white">
                 Code your dream project
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-white">
                 Do you have an idea for your next great website?{' '}
                 {"Let's"}
                 make it a reality.
               </p>
-              <h4 className="py-4 text-teal-600">
-                Design Tools I Use
+              <h4 className="py-4 dark:text-white font-medium text-lg">
+                Programming Languages
               </h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                JavaScript
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                PHP
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                HTML
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                CSS
+              </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div
+              className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 hover:bg-gradient-to-b from-teal-300 to-teal-800 transition-all duration-500 ease-in-out"
+              style={
+                darkMode
+                  ? { border: '1px solid #009688' }
+                  : { border: '1px solid transparent' }
+              }
+            >
               <Image
                 src={consulting}
                 width={100}
@@ -156,21 +193,29 @@ export default function Home() {
                 alt="consulting"
                 style={{ margin: 'auto' }}
               />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="text-2xl font-bold pt-8 pb-2 dark:text-white">
                 Consulting
               </h3>
-              <p className="py-2">
+              <p className="py-2 dark:text-white">
                 Are you interested in feedback for your current
                 project? I can give you tips and tricks to level it
                 up.
               </p>
-              <h4 className="py-4 text-teal-600">
+              <h4 className="py-4 dark:text-white font-medium text-lg">
                 Design Tools I Use
               </h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Photoshop
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Illustrator
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Figma
+              </p>
+              <p className="text-gray-800 py-1 dark:text-white">
+                Indesign
+              </p>
             </div>
           </div>
         </section>
